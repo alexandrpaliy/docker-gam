@@ -1,4 +1,7 @@
+Git repo: https://github.com/alexandrpaliy/docker-gam
+
 # Fork details
+Forked from https://github.com/broadinstitute/docker-gam
 * Bumped alpine version 3.7 -> 3.16
 * Bumped GAM version 4.40 -> 6.25
 * Minor changes in the build process in order to build GAM without errors
