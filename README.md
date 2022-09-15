@@ -1,3 +1,8 @@
+# Fork details
+* Bumped alpine version 3.7 -> 3.16
+* Bumped GAM version 4.40 -> 6.25
+* Minor changes in the build process in order to build GAM without errors
+
 # Docker Image for Dito GAM
 
 [![Docker Hub](https://img.shields.io/docker/pulls/broadinstitute/gam.svg)](https://hub.docker.com/r/broadinstitute/gam/)
@@ -41,4 +46,4 @@ Storing these JSON files inside the container is a *VERY BAD* idea, since anyone
 
 ### Base Image
 
-Built using the DockerHub base [Alpine](https://hub.docker.com/r/library/alpine/) 3.7 image
+Built using the DockerHub base [Alpine](https://hub.docker.com/r/library/alpine/) 3.16 image
