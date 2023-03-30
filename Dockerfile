@@ -1,12 +1,11 @@
-FROM alpine:3.16
+FROM alpine:3.17.3
 
-ENV GAM_VERSION=6.25
+ENV GAM_VERSION=6.52
 
 COPY gam-runner.sh /usr/bin/gam.sh
 
 RUN apk update \
     && apk add bash curl python3 py3-crypto py3-openssl py3-pip py3-six py3-pyscard \
-    && ln -s /usr/bin/python3 /usr/bin/python \
     && pip install -U pip \
     && mkdir /gam \
     && cd /tmp \
